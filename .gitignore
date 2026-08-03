@@ -1,0 +1,33 @@
+.DS_Store
+Thumbs.db
+*~
+
+# Source animations: 132 MB of GIFs, superseded by assets/video/*.mp4.
+# Kept locally as masters; never committed.
+assets/gifs/
+
+# Camera originals, superseded by assets/img/web/
+assets/img/*.HEIC
+assets/img/*.heic
+assets/img/headshot_*
+assets/img/VR_demo.JPG
+assets/img/NSs.png
+assets/img/Cover Image - Square.png
+assets/img/POINTlogo_oval.png
+assets/img/POINT_team.HEIC
+
+# Working notes — kept local, never published. The Pages repo has to be public,
+# so anything committed here is readable by anyone who finds the repo, including
+# a hiring committee. These files discuss editorial decisions and are not for them.
+EDITS.md
+LINKS.md
+ASSETS.md
+README.md
+
+# Images no longer referenced by any page (the research page they served is gone).
+# Kept on disk in case they're wanted again; not worth shipping.
+assets/img/web/black-holes.jpg
+assets/img/web/neutron-stars.jpg
+assets/img/web/portrait-standing.jpg
+assets/img/Einstein_spacetime_logo.webp
+assets/img/artist_BHs.jpg
