@@ -417,7 +417,7 @@ p:last-child { margin-bottom: 0; }
   display: grid; gap: .25rem 1.5rem; grid-template-columns: minmax(0, 1fr);
   padding: 1rem 0; border-top: 1px solid var(--rule-soft);
 }
-@media (min-width: 700px) { .entrylist > li { grid-template-columns: 8ch minmax(0, 1fr); } }
+@media (min-width: 700px) { .entrylist > li { grid-template-columns: max-content minmax(0, 1fr); } }
 .entrylist > li:first-child { border-top: 0; }
 .entrylist .yr { font-family: var(--mono); font-size: .79rem; color: var(--flare); padding-top: .3rem; opacity: .9; }
 .entrylist .what { font-size: 1.01rem; color: var(--ink); }
